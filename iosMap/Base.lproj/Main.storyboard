@@ -20,12 +20,44 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Google Map" id="eQf-FD-CgV">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="fmJ-IX-tn2"/>
+                        <barButtonItem key="rightBarButtonItem" title="Street View&gt;" style="plain" id="fmJ-IX-tn2">
+                            <connections>
+                                <segue destination="y0o-vY-Hnn" kind="show" id="Vmm-L1-i8a"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="964" y="36.431784107946029"/>
+        </scene>
+        <!--View2 Controller-->
+        <scene sceneID="dBb-J3-B33">
+            <objects>
+                <viewController id="y0o-vY-Hnn" customClass="View2Controller" customModule="iosMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o95-Cs-FSf"/>
+                        <viewControllerLayoutGuide type="bottom" id="3zd-pd-Szh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qGt-lc-RIh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MuR-CQ-Afg">
+                                <frame key="frameInset" minY="155" width="375" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mView" destination="MuR-CQ-Afg" id="Q2o-eT-4T6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LdH-1d-uNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1677.5999999999999" y="35.532233883058474"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mvr-pu-NOe">

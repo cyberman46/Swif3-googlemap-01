@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53F9C3522D656740CCD3BB67 /* libPods-iosMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAA644A50960F9D202140F7 /* libPods-iosMap.a */; };
+		903F5CCB1D93BAF2007569F1 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F5CCA1D93BAF2007569F1 /* View2Controller.swift */; };
 		90BE22321D923F4500989780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE22311D923F4500989780 /* AppDelegate.swift */; };
 		90BE22341D923F4500989780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE22331D923F4500989780 /* ViewController.swift */; };
 		90BE22371D923F4500989780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BE22351D923F4500989780 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		111E955BF35725DFBA127B52 /* Pods-iosMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosMap/Pods-iosMap.release.xcconfig"; sourceTree = "<group>"; };
+		903F5CCA1D93BAF2007569F1 /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 		90BE222E1D923F4500989780 /* iosMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BE22311D923F4500989780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90BE22331D923F4500989780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				90BE22381D923F4500989780 /* Assets.xcassets */,
 				90BE223A1D923F4500989780 /* LaunchScreen.storyboard */,
 				90BE223D1D923F4500989780 /* Info.plist */,
+				903F5CCA1D93BAF2007569F1 /* View2Controller.swift */,
 			);
 			path = iosMap;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BE22341D923F4500989780 /* ViewController.swift in Sources */,
+				903F5CCB1D93BAF2007569F1 /* View2Controller.swift in Sources */,
 				90BE22321D923F4500989780 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
